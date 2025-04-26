@@ -43,7 +43,8 @@ class TestVersion(unittest.TestCase):
         mock_get_distribution.assert_called_once_with("awslogs")
         
 if __name__ == '__main__':
-    unittest.main() import unittest
+    unittest.main() 
+import unittest
 from unittest.mock import patch
 import importlib
 from awslogs._version import __version__
